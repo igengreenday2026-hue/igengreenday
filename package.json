@@ -1,0 +1,16 @@
+{
+  "name": "igen-greenday-2026",
+  "version": "1.0.0",
+  "description": "IGEN GREENDAY 2026 - Digital Green Action Dashboard (Google login, submissions, verification, leaderboard)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cookie-session": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.14.0",
+    "multer": "^2.0.0"
+  }
+}
